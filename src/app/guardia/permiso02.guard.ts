@@ -3,13 +3,13 @@ import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot, UrlTree } fro
 import { Observable } from 'rxjs';
 import Swal from 'sweetalert2';
 
-
 @Injectable({
   providedIn: 'root'
 })
-export class FormsGuard implements CanActivate {
+export class Permiso02Guard implements CanActivate {
   canActivate(): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
-   
+    
+    //aqui va toda la lógica
     if(this.hasUser()){
       return true;
     }else{
@@ -26,17 +26,8 @@ export class FormsGuard implements CanActivate {
     }
 
   }
-  
-  hasUser():boolean{
-  let mostrardatos=localStorage.getItem('pass')
-  let datosmostar=localStorage.getItem('name')
-  if('supersecreto'===mostrardatos && 'mabel'===datosmostar){
-    return true;
 
-  }else{
+  hasUser():boolean{
     return false;
   }
-  }
-  
-
 }
