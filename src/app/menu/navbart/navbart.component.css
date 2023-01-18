@@ -1,0 +1,13 @@
+h2{
+    color: white;
+    margin-left: 10px;
+}
+.menu{
+background-color: black;
+padding: 10px;
+}
+ul,li,a{
+   color: aliceblue;
+   border-radius: 5px; 
+   padding-left: 12px;
+}
