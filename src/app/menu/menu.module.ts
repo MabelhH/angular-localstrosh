@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { NavbartComponent } from './navbart/navbart.component';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { ComponentsModule } from '../components/components.module';
-import {MatMenuModule} from '@angular/material/menu';
 
 
 @NgModule({
@@ -15,11 +14,6 @@ import {MatMenuModule} from '@angular/material/menu';
     RouterLink,
     RouterLinkActive,
     ComponentsModule,
-    MatMenuModule,
-    
-
-
-
   ],
   exports:[
     NavbartComponent
