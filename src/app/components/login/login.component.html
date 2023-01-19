@@ -2,14 +2,14 @@
 <form >
     <h1>Login</h1>
     <div>
-     <label for="username">Username</label>
-     <input type="text"  id="username"   >   
+      <label for="username">Username</label>
+      <input type="text"  id="username" [(ngModel)]="username"  >   
     </div>
     <br>
     <div>
-        <label for="pasword">Password</label>
-        <input type="password" id="pasword" >   
-       </div>
+      <label for="pasword">Password</label>
+      <input type="password" id="pasword" [(ngModel)]="password"  >   
+    </div>
        <br>
        <button type="submit" class="btn btn-primary boton"  (click)="datos()">guardar</button>
 

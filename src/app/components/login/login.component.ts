@@ -7,10 +7,17 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class LoginComponent  implements OnInit {
  
-  ngOnInit(): void {
-    
-  }
-  datos(){
+  username='';
+  password='';
 
+  ngOnInit(): void {
+   
+  }
+
+
+  datos(){
+    localStorage.setItem('nombre', this.username);
+    localStorage.setItem('apellido', this.password);
+   
   }
 }

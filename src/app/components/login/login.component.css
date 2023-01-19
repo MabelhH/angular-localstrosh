@@ -1,5 +1,5 @@
 input{
-    width: 790px;
+    width: 90%;
     margin-left: 20px;
     border-radius: 5px;
     padding: 10px;
@@ -7,9 +7,10 @@ input{
 .container{
 margin-top: 40px;
 background-color: rgb(230, 161, 249);
+border: 4px solid purple;
 border: 2px solid ;
 padding: 10px;
-width: 855px;
+width: 800px;
 margin-left: 80px;
 border-radius: 8px;
 }
@@ -18,4 +19,7 @@ h1{
 }
 .boton{
 margin-left: 20px;
+}
+label{
+    margin-left: 20px;
 }
