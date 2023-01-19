@@ -23,3 +23,13 @@ margin-left: 20px;
 label{
     margin-left: 20px;
 }
+mat-icon{
+  color: blue;
+  margin-left: 300px;
+  font-size: 28px;
+
+}
+.row{
+   
+   text-align: center;
+}

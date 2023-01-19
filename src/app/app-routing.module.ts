@@ -10,7 +10,7 @@ import { Permiso02Guard } from './guardia/permiso02.guard';
 const routes: Routes = [
   {path:'',component:LoginComponent , canActivate:[FormsGuard]},
   {path:'post',component:PostComponent, canDeactivate:[PermisoGuard]},
-  {path:'formulario',component:FornularioComponent , canActivate:[Permiso02Guard]},
+  {path:'formulario',component:FornularioComponent , canDeactivate:[Permiso02Guard]},
   {path:'**',redirectTo:'',pathMatch:'full'}
 ];
 

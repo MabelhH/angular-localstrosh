@@ -1,17 +1,24 @@
 <div class="container">
-<form >
-    <h1>Login</h1>
+  
+<form>
+  <div class="row">
+    <div class="col-1">
+  <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+    </div>
+  <div class="col-11">
+  <h1>Login</h1>
+    </div>
+  </div>
     <div>
-      <label for="username">Username</label>
-      <input type="text"  id="username" [(ngModel)]="username"  >   
+      <label for="username">Username</label>  
+      <input type="text"  id="username"> 
     </div>
     <br>
-    <div>
-      <label for="pasword">Password</label>
-      <input type="password" id="pasword" [(ngModel)]="password"  >   
+    <div> 
+      <label for="pasword">Password</label>  
+      <input type="password" id="pasword">  
     </div>
        <br>
        <button type="submit" class="btn btn-primary boton"  (click)="datos()">guardar</button>
-
 </form>
 </div>

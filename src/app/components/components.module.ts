@@ -4,7 +4,8 @@ import { LoginComponent } from './login/login.component';
 import { PostComponent } from './post/post.component';
 import { FormsModule ,ReactiveFormsModule } from '@angular/forms';
 import { FornularioComponent } from './fornulario/fornulario.component';
-
+import {MatIconModule} from '@angular/material/icon';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 
@@ -18,7 +19,9 @@ import { FornularioComponent } from './fornulario/fornulario.component';
   imports: [
     CommonModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatIconModule,
+    MatFormFieldModule
     
     
   ],

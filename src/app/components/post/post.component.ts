@@ -18,7 +18,7 @@ export class PostComponent implements OnInit{
     localStorage.setItem('name',usuario)
     localStorage.setItem('pass',contrasena)
 
-    
+    console.log(usuario+contrasena)
   
   }
  
